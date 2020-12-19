@@ -4,27 +4,27 @@
     padding: 0;
     margin: 0;
 }
-/* Set the background color for the page */
+/* Background color for the page */
 body {
     background-color: #d9dcd6;
 }
-/* Set the background color, font family, font color, and padding for all headers*/
+/* Background color, font family, font color, and padding for all headers*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Set font size for header 1 and disply as inline block */
+/* Font size for header 1 and disply as inline block */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Set the font color for "seo" in h1 */
+/* Font color for "seo" in h1 */
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Set positioning, font family, and font size for headers in nav bar */
+/* Positioning, font family, and font size for headers in nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,19 +36,15 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-/* Set margin and display list items as inline block */
+/* Margin and display list items as inline block */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Set font color for links */
+/* Font color for links */
 a {
     color: #ffffff;
     text-decoration: none;
-}
-/* Set font size for paragraphs */
-p {
-    font-size: 16px;
 }
 /* Format hero image */
 .hero {
@@ -59,21 +55,47 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* Set width and positioning for left sections */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+/* Size, positioning, font family, background and font color for right-side section */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Height for images in right-side section */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Margin and font size for header 2 in right-side section */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Font size for paragraphs */
+p {
+    font-size: 16px;
 }
 /* Set size, positioning, font-family and background color for right sections */
 aside {
@@ -107,30 +129,6 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-/* Size, positioning, font family, background and font color for right-side section */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* Height for images in right-side section*/
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* Margin and font size for header 2 in right-side section*/
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 /* Footer padding, font family and text alignment, clear postioning */
 footer {
