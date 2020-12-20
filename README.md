@@ -1,8 +1,8 @@
 # 01 HTML CSS Git: Code Refactor
 
 ### Table of Contents:
-* [User Story](##-User-Story)
-* [Description](##-Description)
+* [User Story](#user-story)
+* [Description](#description)
 
 
 ## User Story
