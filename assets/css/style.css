@@ -62,9 +62,7 @@ section {
     margin-left: 20px;
 }
 /* Size, positioning, font family, background and font color for right-side section */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.article-main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,15 +71,11 @@ section {
     color: #ffffff;
 }
 /* Height for images in right-side section */
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+.article-main img {
     max-height: 200px;
 }
 /* Margin and font size for header 2 in right-side section */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.article-main h2, {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -109,23 +103,17 @@ aside {
     background-color: #2589bd;
 }
 /* Bottom margin and font color for text in aside */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.article-side {
     margin-bottom: 32px;
     color: #ffffff;
 }
 /* Bottom margin and alignment for header 3 in aside */
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.article-side h3, {
     margin-bottom: 10px;
     text-align: center;
 }
 /* Block display, margin and width for images in aside */
-.benefit-lead img, 
-.benefit-brand img, 
-.benefit-cost img {
+.article-side img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

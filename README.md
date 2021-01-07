@@ -4,6 +4,10 @@
 * [User Story](#user-story)
 * [Description](#description)
 
+[Code Refactor](https://jenngreiner.github.io/HTML-CSS-homework1/)
+<p align="center">
+  <img alt="Code Refactor html" src="./Assets/Images/">
+</p>
 
 ## User Story
 I work for a marketing agency and want a codebase that follows accessibility standards so that our site is optimized for search engines.
