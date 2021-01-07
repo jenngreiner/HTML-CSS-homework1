@@ -6,7 +6,7 @@
 
 [Code Refactor](https://jenngreiner.github.io/HTML-CSS-homework1/)
 
-![Code Refactor html](/Assets/Images/semantic-html-code.png)
+![Code Refactor html](./assets/images/semantic-html-code.png)
 
 ## User Story
 I work for a marketing agency and want a codebase that follows accessibility standards so that our site is optimized for search engines.
